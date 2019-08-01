@@ -1,0 +1,86 @@
+.border{
+	border-style: solid; 
+	border-width: 0.15rem;
+	border-radius: 0.25rem;
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.8);
+	border-color: transparent;
+
+}
+
+.myauto{
+	margin-top: auto !important;
+	margin-bottom: auto !important;
+}
+
+body{
+	font-family: 'Lacquer', sans-serif;
+	background-image: url("../img/prince.jpg")
+}
+
+.nav{
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    padding-bottom: 2rem;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    margin-left: 2rem;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+    border-style: dotted;
+	border-width: 0.15rem;
+	border-color: rgba(252, 250, 67, .6);
+	border-radius: 0.35rem;
+	
+
+}
+
+a:hover{
+	background-color: rgba(252, 250, 67, .7);
+	border-radius: 0.45rem;
+	border-style: dotted;
+	border-width: 0.15rem;
+	border-color: rgba(252, 250, 67, .6);
+}
+
+a.active{
+	background-color: rgba(252, 250, 67, .6);
+	border-radius: 0.45rem;
+	border-style: dotted;
+	border-width: 0.15rem;
+	border-color: rgba(252, 250, 67, .6);
+}
